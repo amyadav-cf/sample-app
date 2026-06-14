@@ -1,5 +1,6 @@
 steps:
   # Step 1: Compile the Go Application
+  # test
   - name: 'gcr.io/cloud-builders/go'
     id: 'Compile application'
     env: ['GOPATH=/gopath']
